@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lands of Jail // Events Command — Etkinlik Rehber Merkezi</title>
+<meta name="description" content="Lands of Jail — etkinlik rehberleri, kahraman tier listeleri, zırh veritabanı ve redeem kodları. Yapımcı: WaysToDie#217">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛓️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="ticker">
+  <span class="dot"></span>
+  <strong>LANDS OF JAIL</strong><span class="sep">//</span><span>EVENTS COMMAND</span>
+  <span class="sep">//</span><span class="scan-txt">LOCKDOWN ARCHIVE ACTIVE</span>
+  <span class="fill"></span>
+  <span class="id">PRODUCED BY WAYSTODIE#217</span>
+</div>
+
+<div class="mobile-bar">
+  <div class="brand-name">⛓️ Lands of Jail <span>Rehber</span></div>
+  <button class="nav-toggle" id="nav-toggle">☰ Menü</button>
+</div>
+<div class="scrim"></div>
+
+<div class="shell">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="crest">
+        <div class="crest-mark">⛓️</div>
+        <div>
+          <div class="brand-name">LANDS <span>OF JAIL</span></div>
+          <div class="brand-sub">Events Command // Archive</div>
+        </div>
+      </div>
+      <p class="desc">Sunucu arşivinden derlenen resmi etkinlik, sistem ve kahraman rehberleri.</p>
+    </div>
+    <div class="search-wrap">
+      <input id="search-input" type="text" placeholder="Rehber ara… (örn. gorilla, forticlad)" aria-label="Rehber ara">
+    </div>
+    <nav class="nav" id="nav" aria-label="Rehber navigasyonu"></nav>
+    <div class="sidebar-foot">
+      SUNUCU ARŞİVİ · GÜNCEL SÜRÜM<br>YAPIMCI: WAYSTODIE#217
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <section id="overview-view" class="view active">
+      <div class="hero">
+        <span class="hero-eyebrow">🔴 Canlı Arşiv — Cellblock Command</span>
+        <h1>Lands of Jail<br><em>Etkinlik Komuta Merkezi</em></h1>
+        <p class="lead">Discord'daki #EventsGuide arşivinden derlenen tüm etkinlik stratejileri, kahraman tier listeleri, zırh veritabanı ve redeem kodları — tek bir dosyada, saha kullanımına hazır.</p>
+        <div class="hero-stats">
+          <div class="hstat"><b>21</b><span>Rehber Dosyası</span></div>
+          <div class="hstat"><b>4</b><span>Kategori</span></div>
+          <div class="hstat"><b>13</b><span>Aktif Redeem Kodu</span></div>
+          <div class="hstat"><b>10</b><span>Power Armor Analizi</span></div>
+        </div>
+      </div>
+
+      <div class="section-pad">
+        <div class="section-head">
+          <h2>Tüm Rehberler</h2>
+          <span class="note">Kartlara tıklayarak detay dosyasını açın</span>
+        </div>
+        <div class="filters">
+          <button class="chip active" data-filter="all">Tümü</button>
+          <button class="chip" data-filter="war">⚔️ Savaş &amp; Kuşatma</button>
+          <button class="chip" data-filter="farm">🎯 Farm &amp; PvE</button>
+          <button class="chip" data-filter="systems">🛠️ Sistemler &amp; Gelişim</button>
+          <button class="chip" data-filter="res">🎁 Kodlar &amp; Kaynaklar</button>
+        </div>
+        <div class="grid" id="overview-grid"></div>
+      </div>
+
+      <footer class="site-foot">
+        <span>⛓️ LANDS OF JAIL — EVENTS COMMAND</span>
+        <span>İçerik kaynağı: Discord #EventsGuide arşivi &nbsp;·&nbsp; Yapımcı: <b>WaysToDie#217</b></span>
+      </footer>
+    </section>
+
+    <section id="detail-view" class="view"></section>
+
+  </main>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
